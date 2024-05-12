@@ -1,0 +1,14 @@
+.count-container{
+    display: flex;
+    justify-content: space-between;
+}
+.content-container{
+    display: flex;
+}
+.product-grid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px;
+}

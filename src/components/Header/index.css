@@ -1,0 +1,73 @@
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.logo-iamge{
+    margin-left: 25px;;
+    margin-right:25px;
+}
+.main-heading{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.icon-item{
+    margin-left: 10px;
+    list-style-type: none;
+    height:50px;
+}
+button{
+    height:20px;
+}
+i{
+    height: 50px;
+}
+.dropdown-container{
+    border:none;
+}
+.tab-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width:35%;
+}
+.tab-item{
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:420px;
+    text-align: center;
+}
+.details-heading{
+    font-weight: 400;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+.details-description{ 
+    font-weight: 300;
+    font-size: 18px;
+}
